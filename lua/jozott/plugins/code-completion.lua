@@ -36,10 +36,6 @@ return {
         "nvim-treesitter/nvim-treesitter",
     },
 
-    -- Alpha (Dashboard)
-    {
-        "goolord/alpha-nvim",
-    },
 
     -- Bufferline
     {
