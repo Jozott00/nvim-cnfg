@@ -39,7 +39,7 @@ keymap.set('n', '<C-j>', [[<Cmd>wincmd j<CR>]])
 keymap.set('n', '<C-k>', [[<Cmd>wincmd k<CR>]])
 keymap.set('n', '<C-l>', [[<Cmd>wincmd l<CR>]])
 
-keymap.set('t', '<esc>', [[<C-\><C-n>]])
+-- keymap.set('t', '<esc>', [[<C-\><C-n>]])
 keymap.set('t', 'jk', [[<C-\><C-n>]])
 keymap.set('t', '<C-h>', [[<Cmd>wincmd h<CR>]])
 keymap.set('t', '<C-j>', [[<Cmd>wincmd j<CR>]])

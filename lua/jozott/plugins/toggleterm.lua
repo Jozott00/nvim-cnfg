@@ -21,7 +21,7 @@ return { {
             insert_mappings = true,
             direction = 'horizontal',
             close_on_exit = true,
-            shell = 'zsh',
+            shell = 'bash',
             float_opts = {
                 border = 'curved',
                 winblend = 3,

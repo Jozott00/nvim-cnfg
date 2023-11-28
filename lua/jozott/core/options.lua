@@ -14,4 +14,10 @@ set tabstop=4               " number of columns occupied by a tab character
 set expandtab               " convert tabs to white space
 set shiftwidth=4            " width for autoindents
 set softtabstop=4           " see multiple spaces as tabstops so <BS> does the right thing
+set scrolloff=999
+set number relativenumber
 ]])
+
+
+
+
