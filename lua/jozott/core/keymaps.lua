@@ -14,7 +14,7 @@ keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 -- normal mode keymaps
 keymap.set("n", "<leader>r", "<cmd>lua vim.lsp.buf.format{async=true}<cr>", { desc = "Reformat Code" })
 keymap.set("n", "<leader>w", "<cmd>w<cr>", { desc = "Write File" })
-keymap.set("n", "<leader>a", "<cmd>Alpha <cr>", { desc = "Alpha" })
+--keymap.set("n", "<leader>a", "<cmd>Alpha <cr>", { desc = "Alpha" })
 keymap.set("n", "<leader>q", "<cmd>wall!<cr>", { desc = "Quit after saving" })
 keymap.set("n", "<leader>k", "<cmd>bdelete<cr>", { desc = "Kill buffer (close file)" })
 
@@ -48,4 +48,6 @@ keymap.set('t', '<C-l>', [[<Cmd>wincmd l<CR>]])
 keymap.set('t', '<C-w>', [[<C-\><C-n><C-w>]])
 
 
-
+-- override things
+keymap.set('n', '<CS-J>', '<Cmd>echo "Ctrl+J pressed"<CR>', { noremap = true, silent = true })
+keymap.set('n', '<CS-K>', '<Cmd>echo "Ctrl+K pressed"<CR>', { noremap = true, silent = true })
