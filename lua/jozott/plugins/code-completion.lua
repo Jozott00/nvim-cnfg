@@ -131,22 +131,9 @@ return {
         },
     },
 
-    -- Colorscheme
-    {
-        'folke/tokyonight.nvim',
-    },
-
     -- Hop (Better Navigation)
     {
         "phaazon/hop.nvim",
     },
 
-
-    -- Lualine
-    {
-        'nvim-lualine/lualine.nvim',
-        dependencies = {
-            'nvim-tree/nvim-web-devicons'
-        },
-    },
 }
